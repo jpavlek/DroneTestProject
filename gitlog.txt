@@ -1,0 +1,16 @@
+git add --all
+git status
+touch .gitignore
+git rm --cached -r Intermediate/
+git rm --cached -r Binaries/
+git rm --cached -r DerivedDataCache/
+git rm --cached -r Saved/
+
+git add .gitignore
+
+git status
+git commit -m "Initial commit with drone asset added, not imported"
+git fetch DroneTestProject master
+git remote add DroneTestProject https://github.com/jpavlek/DroneTestProject
+git pull DroneTestProject master --allow-unrelated-histories
+git push --set-upstream DroneTestProject master
