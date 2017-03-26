@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{1D461F40-3703-0D12-0028-0036FDEB0189}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "DroneTestProject",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}
