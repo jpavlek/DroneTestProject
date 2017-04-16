@@ -14,3 +14,10 @@ git fetch DroneTestProject master
 git remote add DroneTestProject https://github.com/jpavlek/DroneTestProject
 git pull DroneTestProject master --allow-unrelated-histories
 git push --set-upstream DroneTestProject master
+
+git add Content/ThirdPersonBP/Maps/*
+git add Source/DroneTestProject/*
+git add DroneTestProject.uproject
+git commit -m "Drone and DroneAIController added (initial)"
+git push
+
